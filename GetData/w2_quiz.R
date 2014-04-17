@@ -30,7 +30,8 @@ content(req)
 library(sqldf)
 
 dl.url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2Fss06pid.csv"
-download.file(dl.url, destfile = "./data/acs.csv", method = "curl")
+download.file(dl.url, destfile = "acs.csv", method = "internal")
+
 
 sqldf("select pwgtp1 from acs where AGEP < 50")
 
