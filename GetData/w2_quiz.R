@@ -32,11 +32,12 @@ library(sqldf)
 dl.url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2Fss06pid.csv"
 download.file(dl.url, destfile = "acs.csv", method = "internal")
 
-
+#answer is
 sqldf("select pwgtp1 from acs where AGEP < 50")
 
 
 # Q3
+#answer is
 sqldf("select distinct AGEP from acs")
 
 # Q4
