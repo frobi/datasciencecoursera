@@ -1,6 +1,6 @@
-datasciencecoursera
-===================
+# datasciencecoursera
 
-The "Data Science" Specialization on Coursera
+Repo for the "Data Science" Specialization on Coursera
 
-HelloWorld.md is for Data Scientist's Toolbox
+* GetData: Getting and Cleaning Data on Coursera
+* HelloWorld.md is for Data Scientist's Toolbox
